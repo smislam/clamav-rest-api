@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Snooper
+
+clamd:
+  host: localhost
+  port: 3310
+  timeout: 500
+  maxfilesize: 20000KB
+  maxrequestsize: 20000KB
