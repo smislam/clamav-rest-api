@@ -21,3 +21,7 @@ If all goes well, we should see this:
 
 ### Notes
 This is a simple implementation.  If there is a requirement for HA, the architecture will need to be changed.  Also implement TLS, observability, robust exception handling, server status, and other applicable requirements for making this Production ready. 
+
+## References
+### ClamAV
+https://www.clamav.net/
