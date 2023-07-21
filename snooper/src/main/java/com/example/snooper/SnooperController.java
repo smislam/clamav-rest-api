@@ -23,7 +23,7 @@ public class SnooperController {
     }
 
     @PostMapping("/scan")
-    public String scan(@RequestParam("file") MultipartFile file, ) throws IOException {
+    public String scan(@RequestParam("file") MultipartFile file) throws IOException {
         return (!file.isEmpty() && snooperService.isSafe(file.getInputStream())) ?
                 "ALL GOOD" : "!!! VIRUS FOUND !!!";
     }
