@@ -1,6 +1,6 @@
 # An example implementation of ClamAV (Anti-Virus) as a REST application
 
-In this example we are deploying ClamAV Virus Scanner to AWS and also exposing it as a REST service.  This approach enabled an application to send a file over API to ClamAV to return a pass/fail information.
+In this example, we are deploying ClamAV Virus Scanner to AWS and also exposing it as a REST service.  This approach enables an application to send a file over API to ClamAV to return a pass/fail information.  If your use case require file scanning on S3, you can refer to this repo: https://github.com/awslabs/cdk-serverless-clamscan
 
 ## Implementation Details
 This example is using a REST api using a Spring Boot application.  Dependencies:
